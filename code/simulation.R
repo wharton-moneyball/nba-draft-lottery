@@ -5,7 +5,7 @@ set.seed(42)
 library(tidyverse)
 
 # read in data
-odds = read_csv("nba_lottery_odds.csv")
+odds = read_csv("data/nba_lottery_odds.csv")
 
 # normalize within each year so they sum to 1
 odds = odds %>%
